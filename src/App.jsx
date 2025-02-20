@@ -9,7 +9,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     fetchMovies();
-  }, []);
+  }, []); 
 
   const fetchMovies = async () => {
     if (!searchTerm.trim()) {
